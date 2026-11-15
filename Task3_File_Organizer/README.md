@@ -1,14 +1,35 @@
-# Automated File Organizer
+# Datheon Python Programming Internship
 
-## Project Description
-This Python project automatically organizes files into separate folders based on their file extensions.
+This repository contains two Python projects completed as part of my Datheon Python Programming Internship.
 
-## Features
-- Detects file extensions.
-- Organizes documents, images, videos, archives, and code files.
-- Creates folders automatically.
-- Moves files into their respective folders.
-- Displays the total number of files moved.
+## Task 1: Hangman Word Guessing Game
+
+A Python-based word guessing game where users guess hidden letters to identify a word.
+
+**Files:**
+- `hangman.py`
+- `words.txt`
+
+**How to Run:**
+```bash
+python hangman.py
+```
+
+## Task 3: Automated File Organizer
+
+A Python project that automatically organizes files into folders based on their extensions.
+
+**Folder:** `Task3_File_Organizer`
+
+**Files:**
+- `organizer.py`
+- `README.md`
+- `Test_Files/sample.txt`
+
+**How to Run:**
+```bash
+python organizer.py
+```
 
 ## Technologies Used
 - Python
@@ -16,17 +37,7 @@ This Python project automatically organizes files into separate folders based on
 - Shutil Module
 - Pathlib Module
 
-## How to Run
-1. Install Python.
-2. Open the project in VS Code.
-3. Open the terminal.
-4. Run:
-
-```bash
-python organizer.py
-```
-
 ## Developed By
 Muniswari
 
-Python Programming Internship – Datheon
+Datheon Python Programming Internship
