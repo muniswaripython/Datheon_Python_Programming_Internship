@@ -6,30 +6,27 @@ This repository contains two Python projects completed as part of my Datheon Pyt
 
 A Python-based word guessing game where users guess hidden letters to identify a word.
 
-**Files:**
-- `hangman.py`
-- `words.txt`
+### Files
+- hangman.py
+- words.txt
 
-**How to Run:**
-```bash
+### How to Run
 python hangman.py
-```
 
 ## Task 3: Automated File Organizer
 
 A Python project that automatically organizes files into folders based on their extensions.
 
-**Folder:** `Task3_File_Organizer`
+### Folder
+Task3_File_Organizer
 
-**Files:**
-- `organizer.py`
-- `README.md`
-- `Test_Files/sample.txt`
+### Files
+- organizer.py
+- README.md
+- Test_Files/sample.txt
 
-**How to Run:**
-```bash
+### How to Run
 python organizer.py
-```
 
 ## Technologies Used
 - Python
@@ -39,5 +36,3 @@ python organizer.py
 
 ## Developed By
 Muniswari
-
-Datheon Python Programming Internship
