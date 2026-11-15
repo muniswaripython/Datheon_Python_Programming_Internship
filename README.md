@@ -1,35 +1,40 @@
-# Hangman Word Guessing Game
+# Automated File Organizer
 
 ## Project Description
-Hangman is a word-guessing game developed using Python. The player must guess a hidden word one letter at a time before running out of attempts.
+The Automated File Organizer is a Python project that automatically organizes files into separate folders based on their file extensions.
 
 ## Features
-- Random word selection from an English words list.
-- Six incorrect attempts allowed.
-- Displays Hangman drawings.
-- Checks correct and incorrect guesses.
-- Prevents duplicate guesses.
-- Validates user input.
-- Displays win or game-over messages.
+- Automatically detects file extensions.
+- Organizes documents, images, videos, archives, and code files.
+- Creates category folders automatically.
+- Moves files into their respective folders.
+- Displays the total number of files moved.
 
 ## Technologies Used
 - Python
-- Random Module
+- OS Module
+- Shutil Module
+- Pathlib Module
 
 ## How to Run
 1. Install Python.
 2. Open the project folder in VS Code.
-3. Make sure `hangman.py` and `words.txt` are in the same folder.
-4. Open the terminal.
-5. Run:
+3. Open the terminal.
+4. Run the following command:
 
 ```bash
-python hangman.py
+python organizer.py
 ```
 
-## Project Files
-- `hangman.py` – Main Python game.
-- `words.txt` – English word list.
+## Project Structure
+```text
+Task3_File_Organizer/
+├── organizer.py
+├── README.md
+└── Test_Files/
+    ├── Documents/
+    └── Images/
+```
 
 ## Developed By
 Muniswari
